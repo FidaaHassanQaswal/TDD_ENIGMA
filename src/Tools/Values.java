@@ -1,11 +1,10 @@
 package Tools;
 
 /**
- * Created with IntelliJ IDEA.
+ * Static values to be used throughout the program.
  * User: Marthyn
  * Date: 19/11/12
  * Time: 20:29
- * To change this template use File | Settings | File Templates.
  */
 public class Values {
 

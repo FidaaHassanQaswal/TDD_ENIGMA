@@ -3,15 +3,15 @@ import org.junit.*;
 import Enigma.Machine;
 
 /**
- * Created with IntelliJ IDEA.
+ * Test class for testing the machine class.
  * User: Marthyn
  * Date: 19/11/12
  * Time: 20:02
- * To change this template use File | Settings | File Templates.
  */
 public class MachineTest {
 
-     @Test
+    //Test the Enigma machine with a letter, a word and a sentence
+    @Test
     public void ConvertTextTest() {
          Machine enigma = new Machine();
          Assert.assertEquals("X", enigma.convert("Q"));

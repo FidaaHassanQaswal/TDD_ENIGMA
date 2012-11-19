@@ -5,11 +5,10 @@ import Tools.ArrayTools;
 import Tools.Values;
 
 /**
- * Created with IntelliJ IDEA.
+ * Rotor class.
  * User: Marthyn
  * Date: 19/11/12
- * Time: 12:01
- * To change this template use File | Settings | File Templates.
+ * Time: 12:05
  */
 public class Rotor {
 

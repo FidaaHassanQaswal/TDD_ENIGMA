@@ -1,11 +1,10 @@
 package Enigma;
 
 /**
- * Created with IntelliJ IDEA.
+ * Reflector class.
  * User: Marthyn
  * Date: 19/11/12
- * Time: 11:07
- * To change this template use File | Settings | File Templates.
+ * Time: 11:20
  */
 public class Reflector {
 

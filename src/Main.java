@@ -5,11 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Created with IntelliJ IDEA.
+ * Main class for Enigma Machine, reads input and prints out the converted string.
  * User: Marthyn
  * Date: 19/11/12
  * Time: 21:11
- * To change this template use File | Settings | File Templates.
  */
 public class Main {
 

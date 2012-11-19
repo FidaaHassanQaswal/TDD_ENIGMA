@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 import Enigma.Reflector;
 
 /**
- * Created with IntelliJ IDEA.
+ * Test class for testing the reflector class
  * User: Marthyn
  * Date: 19/11/12
  * Time: 11:04
@@ -12,7 +12,7 @@ import Enigma.Reflector;
 public class ReflectorTest {
 
 
-
+    //Test if the reflector returns the correct values
     @Test
     public void ReflectorConvertCharacterToIndex() {
         Reflector reflector = new Reflector();
