@@ -1,5 +1,6 @@
 package Enigma;
 
+
 /**
  * Created with IntelliJ IDEA.
  * User: Marthyn
@@ -43,13 +44,11 @@ public class Rotor {
         for(int i = 0; i<26; i++) {
             if(arrayPosition>25) {
                 array[i] = values[arrayPosition-26][1];
-                System.out.println(array[i]);
-                System.out.println(values[arrayPosition-26][1]);
+
             }
             else{
                 array[i] = values[arrayPosition][1];
-                System.out.println(array[i]);
-                System.out.println(values[arrayPosition][1]);
+
             }
             arrayPosition++;
         }
@@ -72,12 +71,24 @@ public class Rotor {
     }
 
     public int convert(int index, int side) {
-        if(side == LEFT) {
-            return java.util.Arrays.asList(getLeftSide()).indexOf(getRightSide()[index]);
+        if(side==0) {
+            return indexOf(getRightSide()[index], getLeftSide());
         }
-        else if(side == RIGHT) {
-            return java.util.Arrays.asList(getRightSide()).indexOf(getLeftSide()[index]);
+        else{
+            return indexOf(getRightSide()[index], getLeftSide());
         }
+
+    }
+
+    public static int indexOf(char needle, char[] haystack)
+    {
+        for (int i=0; i<haystack.length; i++)
+        {
+            if (haystack[i] == needle) {
+                return i;
+            }
+        }
+
         return -1;
     }
 }

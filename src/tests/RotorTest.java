@@ -43,4 +43,11 @@ public class RotorTest {
         Rotor rotor = new Rotor("EKMFLGDQVZNTOWYHXUSPAIBRCJ", 14, 'Q');
         Assert.assertEquals(rotor.getLeftSide()[1], testarray[1]);
     }
+
+    @Test
+    public void ConvertCharTest() {
+        Rotor rotor = new Rotor("EKMFLGDQVZNTOWYHXUSPAIBRCJ", 10, 'Q');
+        Assert.assertEquals(3, rotor.convert(5,0));
+    }
+
 }
